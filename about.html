@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+     <meta
+      name="description"
+      content="About Olena Laukkonen, Olena is a front-end engineer based in Finland"
+    />
+    <title>About me - Olena Laukkonen</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -28,23 +32,28 @@
       rel="stylesheet"
     />
   </head> 
-   <div class="container">
-      <nav class="d-flex justify-content-between">
-      
-      <img src="images/logo.png" class="logo d-none d-md-block" alt=""/>
-      <img src="images/logo-small.jpeg" class="logo d-block d-md-none" alt=""/>
-      <ul>
-        <li>
-          <a href="/"> Home </a>
-        </li>
-        <li class="active"><a href="/about.html"> About </a></li>
-        <li><a href="/work.html"> Work </a></li>
-        <li><a href="/contact.html"> Contact </a></li>
-      </ul>
-      
-    </nav>
-  </div>
+   
   <body>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="Olena logo" />
+        <img
+          src="images/logo-small.jpeg"
+          class="logo d-block d-md-none"
+          alt="Olena logo"
+        />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home </a>
+          </li>
+          <li class="active"><a href="/about.html" title="About Olena"> About </a></li>
+          <li><a href="/work.html" title="Olena's work"> Work </a></li>
+          <li><a href="/contact.html" title="Contact Olena"> Contact </a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -63,9 +72,41 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/Olena.jpg" alt=""  class="img-fluid rounded"/>
+          <img src="images/Olena.jpg" alt="Olena`s photo"  class="img-fluid rounded"/>
         </div>
       </div>
     </div>
+      <footer class="container">
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let’s work together</p>
+          </div>
+          <div>
+          <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Olena">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:olena.laukkonen1@gmail.com" class="email-link" title="Email Olena"
+            >olena.laukkonen1@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://github.com/Olena1408" target="_blank" title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://facebook.com/olena.laukkonen" target="_blank" title="Facebook Profile"title="Github Profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://instagram.com/olena.laukkonen" target="_blank" title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+         &#9757; This project was coded Olena Laukkonen, and it is 
+          <a href="" target="_blank">open-sourced</a>
+          
+        </p>
+      </footer>
   </body>
 </html>
